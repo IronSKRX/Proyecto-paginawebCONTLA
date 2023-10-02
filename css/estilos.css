@@ -1,0 +1,339 @@
+ body{ 
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0px;
+	background-color: #f4f4f4;
+	
+}
+
+.contenedor{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1{
+	height: 38px;
+	background-color: #1293d4;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+header{
+	background-color: #24282b;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #1293d4;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #marca{
+	float: right;
+
+}
+
+header #marca h1{
+	margin: 0;
+
+
+}
+ header nav{
+ 	float: left;
+ 	margin-top: 10px;
+
+ }
+
+ header .resaltado, header .actual a{
+ 	color: #1293d4;
+ 	font-weight: bold;
+ 	height: 20px;
+
+ }
+
+ header a:hover{
+ 	color: #1293d4;
+ 	font-weight: bold;
+ }
+
+#cabecera{
+	min-height: 600px;
+	background: url(../img/24.jpg) no-repeat  -100px;
+	text-align:  center;
+	color: #F4F4F4;
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+#boletin{
+	padding: 15px;
+	color: #fff;
+	background: #24282b;
+
+}
+
+#boletin h1{
+	float: left;
+	
+}
+
+#boletin form{
+	float: right;
+	margin-top: 15px;
+}
+
+#boletin input [type="email"]{
+	padding: 4px;
+	height: 25px;
+	width:  250px;
+	
+}
+
+#cajas{
+	margin-top: 20px;
+
+}
+
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 28%;
+	padding: 20px;
+}
+
+#cajas .caja img{
+	width: 400px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #24282b;
+    text-align: center;
+	
+}
+	
+aside#lateral{
+	float: left;
+	width: 30%;
+	margin-top: 10px;
+
+}
+
+.oscuro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color: #;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav li a:hover{
+	background-color: #1293d4;
+}
+
+.nav > li{
+	float: left;
+}
+
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 110px;
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+
+.nav li ul li{
+	position: relative;
+}
+
+.nav li ul li ul{
+	right: 140px;
+	top: 0px;
+}
+
+.oscuro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.img36{
+	float: left;
+}
+.img32{
+	float: right;
+}
+.img38{
+	float: left;
+}
+.video2{
+	float: right;
+}
+.boton1{
+	background: #1293d4;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.boton2{
+	background: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.cuadro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+img{
+	margin: 	10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container-icons{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 500;
+}
+
+.icon-circle-with-plus{
+    font-size: 70px;
+    transition: all 300ms;
+    color: #E44C36;
+}
+
+.container-icons:hover .icon-circle-with-plus{
+    transform: rotate(180deg);
+}
+
+.row-icon{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 300ms;
+    opacity: 1;
+    padding: 5px;
+}
+
+.container-icons:hover .row-icon{
+    opacity: 1;
+}
+
+.row-icon h4{
+    transform: translate(-10px, 10px);
+    background: rgba(0,0,0,0.6);
+    height: 20px;
+    font-weight: 300;
+    padding: 2px 2px;
+    color: white;
+    border-radius: 5px;
+}
+
+.row-icon label{
+    font-size: 40px;
+}
+
+
+
+.icon1{
+    transform: translate(-100px, -40px) scale(0);
+}
+
+.icon2{
+    transform: translate(-0px, -90px) scale(0);
+}
+
+.icon3{
+    transform: translate(-96px, -180px) scale(0);
+}
+
+.icon4{
+    transform: translate(-10px, -250px) scale(0);
+}
+
+
+
+.container-icons:hover .icon1{
+    transform: translate(-66px, -50px) scale(1);
+}
+
+.container-icons:hover .icon2{
+    transform: translate(-56px, -100px) scale(1);
+}
+
+.container-icons:hover .icon3{
+    transform: translate(-70px, -150px) scale(1);
+}
+
+.container-icons:hover .icon4{
+    transform: translate(-46px, -200px) scale(1);
+}
+
+
+
+.label1{
+    color: #4862A3;
+}
+
+.label2{
+    color: #AB3838;
+}
+
+.label3{
+    color: #D32681;
+}
+
+.label4{
+    color: #1DA0F2;
+}

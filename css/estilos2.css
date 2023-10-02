@@ -1,0 +1,192 @@
+ body{
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+.contenedor{
+	width: 45%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1{
+	height: 38px;
+	background-color: #1293d4;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+header{
+	background-color: #24282b;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #1293d4;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #marca{
+	float: right;
+
+}
+
+header #marca h1{
+	margin: 0;
+
+
+}
+ header nav{
+ 	float: left;
+ 	margin-top: 10px;
+
+ }
+
+ header .resaltado, header .actual a{
+ 	color: #1293d4;
+ 	font-weight: bold;
+ 	height: 20px;
+
+ }
+
+ header a:hover{
+ 	color: #1293d4;
+ 	font-weight: bold;
+ }
+
+#cabecera{
+	min-height: 600px;
+	background: url(../img/24.jpg) no-repeat  -100px;
+	text-align:  center;
+	color: #fff;
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+#boletin{
+	padding: 15px;
+	color: #fff;
+	background: #24282b;
+
+}
+
+#boletin h1{
+	float: left;
+	
+}
+
+#boletin form{
+	float: right;
+	margin-top: 15px;
+}
+
+#boletin input [type="email"]{
+	padding: 4px;
+	height: 25px;
+	width:  250px;
+	
+}
+
+#cajas{
+	margin-top: 20px;
+
+}
+
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 20px;
+}
+
+#cajas .caja img{
+	width: 450px;
+}
+
+aside#lateral{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+
+}
+
+.oscuro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+article#main-col{
+	float: left;
+	width: 65px;
+}
+
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #24282b;
+    text-align: center;
+	
+}
+
+.img1{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.img2{
+	float: left;
+}
+
+.img36{
+	float: left;
+}
+
+
+.cuadro{
+	padding: 18px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.boton1{
+	background: #1293d4;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+img{
+	margin: 10px;
+}
